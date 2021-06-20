@@ -1,0 +1,25 @@
+.section2-main-title, .section2-secondary-title {
+    text-align: center;
+    width: 100%;
+}
+
+.common-main-page-container {
+
+}
+
+.common-offer-image-container {
+    display: flex;
+}
+
+.common-feature-container {
+    display: flex;
+}
+
+.common-feature-container > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.section2-description-common-container {
+    display: flex;
+}

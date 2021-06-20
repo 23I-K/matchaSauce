@@ -1,0 +1,16 @@
+.common-main-page-container {
+
+}
+
+.common-offer-image-container {
+    display: flex;
+}
+
+.common-feature-container {
+    display: flex;
+}
+
+.common-feature-container > div {
+    display: flex;
+    flex-direction: column;
+}
