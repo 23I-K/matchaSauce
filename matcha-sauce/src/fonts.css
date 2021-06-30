@@ -1,0 +1,18 @@
+:root {
+    --light-1: 300;
+    --light-2: 400;
+    --medium-1: 500;
+    --bold-1: 700;
+    --bold-2: 900;
+}
+
+:root {
+    --font-size-13: 13px;
+    --font-size-15: 15px;
+    --font-size-18: 18px;
+    --font-size-20: 20px;
+    --font-size-25: 25px;
+    --font-size-30: 30px;
+    --font-size-40: 40px;
+    --font-size-70: 70px;
+}

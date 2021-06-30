@@ -1,4 +1,22 @@
 .deliveryItem-container {
     display: flex;
     flex-direction: column;
+    width: 22%;
+    align-items: center;
+}
+
+.deliveryItem-container > img {
+    min-height: 130px;
+}
+
+.main-description {
+    font-weight: var(--bold-1);
+    font-size: var(--font-size-20);
+    color: var(--main-dark-color);
+}
+
+.secondary-description {
+    color: var(--main-dark-color);
+    font-size: var(--font-size-20);
+    font-weight: var(--light-1);
 }

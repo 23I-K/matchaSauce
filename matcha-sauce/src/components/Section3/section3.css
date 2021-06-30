@@ -1,8 +1,23 @@
+.section3-content {
+    padding-top: 100px;
+}
+
 .section3-main-title {
     text-align: center;
     width: 100%;
+    font-weight: var(--bold-2);
+    font-size: var(--font-size-40);
+    color: var(--main-dark-color);
 }
 
 .canAddItem-common-container {
     display: flex;
+}
+
+.section3-footer-text {
+    color: var(--secondary-dark-color);
+    font-size: var(--font-size-20);
+    font-weight: var(--light-2);
+    text-align: center;
+    margin-top: 45px;
 }

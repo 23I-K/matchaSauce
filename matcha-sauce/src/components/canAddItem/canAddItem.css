@@ -1,4 +1,16 @@
 .canAddItem-main-container {
     display: flex;
     flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.canAddItem-main-container > img {
+    min-height: 132px;
+}
+
+.canAddItem-main-container > p {
+    font-size: var(--font-size-20);
+    color: var(--secondary-dark-color);
+    font-weight: var(--light-1);
 }

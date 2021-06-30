@@ -10,9 +10,9 @@ function Header () {
     let {configContacts} = siteConfig;
 
     return (
-        <nav className={'header-common-container'}>
+        <nav className={'header-common-container pt-4'}>
             <Logo/>
-            <div>
+            <div className={'header-links-container'}>
                 <Link to="/">Купить</Link>
                 <Link to="/about">О продукте</Link>
                 <Link to="/blog">Доставка</Link>

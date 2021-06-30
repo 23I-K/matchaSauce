@@ -1,0 +1,62 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "siteRoot": "http://n99987i0.beget.tech",
+  "plugins": [
+    [
+      "C:\\Users\\user\\IdeaProjects\\matchaSauce\\matcha-sauce\\node_modules\\react-static-plugin-source-filesystem\\node.api.js",
+      {
+        "location": "C:\\Users\\user\\IdeaProjects\\matchaSauce\\matcha-sauce\\src\\pages"
+      }
+    ],
+    "C:\\Users\\user\\IdeaProjects\\matchaSauce\\matcha-sauce\\node_modules\\react-static-plugin-reach-router\\browser.api.js",
+    "C:\\Users\\user\\IdeaProjects\\matchaSauce\\matcha-sauce\\node_modules\\react-static-plugin-sitemap\\dist\\node.api.js",
+    "C:\\Users\\user\\IdeaProjects\\matchaSauce\\matcha-sauce"
+  ],
+  "paths": {
+    "ROOT": "C:\\Users\\user\\IdeaProjects\\matchaSauce\\matcha-sauce",
+    "SRC": "C:\\Users\\user\\IdeaProjects\\matchaSauce\\matcha-sauce\\src",
+    "DIST": "C:\\Users\\user\\IdeaProjects\\matchaSauce\\matcha-sauce\\dist",
+    "ASSETS": "C:\\Users\\user\\IdeaProjects\\matchaSauce\\matcha-sauce\\dist",
+    "PLUGINS": "C:\\Users\\user\\IdeaProjects\\matchaSauce\\matcha-sauce\\plugins",
+    "TEMP": "C:\\Users\\user\\IdeaProjects\\matchaSauce\\matcha-sauce\\tmp",
+    "ARTIFACTS": "C:\\Users\\user\\IdeaProjects\\matchaSauce\\matcha-sauce\\artifacts",
+    "PUBLIC": "C:\\Users\\user\\IdeaProjects\\matchaSauce\\matcha-sauce\\public",
+    "NODE_MODULES": "C:\\Users\\user\\IdeaProjects\\matchaSauce\\matcha-sauce\\node_modules",
+    "EXCLUDE_MODULES": "C:\\Users\\user\\IdeaProjects\\matchaSauce\\matcha-sauce\\node_modules",
+    "PACKAGE": "C:\\Users\\user\\IdeaProjects\\matchaSauce\\matcha-sauce\\package.json",
+    "HTML_TEMPLATE": "C:\\Users\\user\\IdeaProjects\\matchaSauce\\matcha-sauce\\dist\\index.html",
+    "STATIC_DATA": "C:\\Users\\user\\IdeaProjects\\matchaSauce\\matcha-sauce\\dist\\staticData"
+  },
+  "basePath": "",
+  "publicPath": "http://n99987i0.beget.tech/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}

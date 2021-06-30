@@ -4,4 +4,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: var(--main-white-color);
+}
+
+.header-links-container > * {
+    color: var(--main-dark-color)!important;
+    font-weight: var(--light-1);
+}
+
+.header-links-container > *:hover {
+    font-weight: var(--bold-1);
 }

@@ -1,3 +1,14 @@
 .deliveryItems-common-container {
     display: flex;
 }
+
+.delivery-section-content {
+    padding-top: 60px;
+}
+
+.delivery-header-text {
+    font-weight: var(--bold-2);
+    font-size: var(--font-size-40);
+    color: var(--secondary-dark-color);
+    text-align: center;
+}

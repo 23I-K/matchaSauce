@@ -1,36 +1,39 @@
 import React from 'react';
-import TemplateContact from "../ContactsLink/templateContact";
-import siteConfig from '../../siteConfig.json';
 import contactsPhone from '../../assets/img/contactsSection/contacts-phone.png';
+import contactsTelegram from '../../assets/img/contactsSection/telegram.png';
+import contactsMail from '../../assets/img/contactsSection/mail.png';
+import contactsWhatsApp from '../../assets/img/contactsSection/whatsapp.png';
 import contactFormMainImg from '../../assets/img/contactsSection/contact-form-main.png';
 import './contactsSection.css';
 
 export default function ContactsSection() {
     return (
-        <div>
-            <h1 className={'w-100 text-center'}>Контакты</h1>
-            <div className={'d-flex'}>
-                <div className={'d-flex flex-column'}>
-                    <div className={'d-flex flex-column'}>
-                        <input placeholder={'Ваше имя'}/>
-                        <input placeholder={'Ваш E-mail'}/>
-                        <input placeholder={'Ваш телефон'}/>
+        <div className={'contactsSection-container'}>
+            <h1 className={'w-100 text-center mb-5'}>Контакты</h1>
+            <div className={'d-flex contact-form-container'}>
+                <div className={'d-flex flex-column w-50 form-inputs-container'}>
+                    <div className={'d-flex flex-column justify-content-between form-inputs-container-inner'}>
+                        <input placeholder={'Ваше имя'} className={'contact-form-input'}/>
+                        <input placeholder={'Ваш E-mail'} className={'contact-form-input'}/>
+                        <input placeholder={'Ваш телефон'} className={'contact-form-input'}/>
                     </div>
-                    <button>Сделать заказ</button>
+                    <button className={'main-btn-orange m-auto'}>Сделать заказ</button>
                 </div>
-                <div>
-                    <div>
-                        <div>
-                            <p>Cвяжитесь с нами для уточнения подробностей</p>
-                            <div className={'d-flex'}>
-                                <TemplateContact configContacts={siteConfig} src={contactsPhone}/>
-                                <TemplateContact configContacts={siteConfig} src={contactsPhone}/>
-                                <TemplateContact configContacts={siteConfig} src={contactsPhone}/>
-                                <TemplateContact configContacts={siteConfig} src={contactsPhone}/>
+                <div className={'w-50 form-contacts-container-common'}>
+                    <div className={'form-contacts-container py-4 px-5'}>
+                        <p className={'mb-4'}>Cвяжитесь с нами для уточнения подробностей</p>
+                        <div className={'d-flex flex-column w-100 gap-4'}>
+                            <div className={'d-flex w-75 justify-content-between'}>
+                                <a className={'contact-link contact-link-2 gap-2'} href={'tel: +79096931604'}><img src={contactsPhone} alt={'logo'}/>{'+79096931604'}</a>
+                                <a className={'contact-link contact-link-2 gap-2'} href={'tel: +79096931604'}><img src={contactsTelegram} alt={'logo'}/>{'+79096931604'}</a>
+                            </div>
+                            <div className={'d-flex w-75 justify-content-between'}>
+                                <a className={'contact-link contact-link-2 gap-2'} href={'mailto: matchasauce@gmail.com'}><img src={contactsMail} alt={'logo'}/>{'matchasauce@gmail.com'}</a>
+                                <a className={'contact-link contact-link-2 gap-2'} href={'tel: +79096931604'}><img src={contactsWhatsApp} alt={'logo'}/>{'+79096931604'}</a>
                             </div>
                         </div>
-                        <img alt={'contactFormImage'} src={contactFormMainImg}/>
                     </div>
+                    <img alt={'contactFormImage'} src={contactFormMainImg} className={'contact-form-image'}/>
                 </div>
             </div>
         </div>

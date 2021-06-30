@@ -1,0 +1,55 @@
+.contactsSection-container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.form-inputs-container {
+    background-color: var(--grey-form-background);
+    padding: 50px 50px;
+    border-radius: 25px 0 0 25px;
+}
+
+.form-inputs-container-inner {
+    margin-bottom: 60px;
+    gap: 37px;
+}
+
+.contact-form-input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: var(--grey-form-background);
+}
+
+.form-contacts-container {
+    background-color: var(--green-form-background);
+    height: 60%;
+    border-top-right-radius: 25px;
+}
+
+.contact-form-image {
+    height: 40%;
+    width: 100%;
+    object-fit: cover;
+    border-bottom-right-radius: 25px;
+}
+
+.contact-form-container {
+    box-shadow: 20px 20px 35px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+}
+
+.form-contacts-container-common {
+    border-radius: 25px;
+}
+
+.contact-link-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-link-2 > img {
+    width: 30px;
+    height: 30px;
+}
