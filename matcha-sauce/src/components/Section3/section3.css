@@ -21,3 +21,27 @@
     text-align: center;
     margin-top: 45px;
 }
+
+.slider-common-container-section3 {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .section3-main-title {
+        font-size: var(--font-size-20);
+        text-align: center;
+    }
+
+    .canAddItem-common-container {
+        display: none;
+    }
+
+    .slider-common-container-section3 {
+        display: block;
+    }
+
+    .section3-footer-text {
+        font-size: var(--font-size-13);
+        text-align: center;
+    }
+}

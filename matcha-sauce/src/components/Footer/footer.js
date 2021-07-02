@@ -6,7 +6,7 @@ import Logo from "../Logo/logo";
 export default function Footer() {
     return (
         <div className={'footer-main-container'}>
-            <div className={'container d-flex w-75 gap-5 align-items-center'}>
+            <div className={'container footer-container d-flex align-items-center'}>
                 <Logo/>
                 <p className={'footer-text'}>Политика конфиденциальности</p>
                 <p className={'footer-text'}>Все права защищены</p>

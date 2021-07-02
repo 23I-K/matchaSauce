@@ -12,3 +12,14 @@
     color: var(--secondary-dark-color);
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .delivery-header-text {
+        font-size: var(--font-size-20);
+        text-align: center;
+    }
+
+    .deliveryItems-common-container {
+        flex-direction: column;
+    }
+}

@@ -1,9 +1,8 @@
 import React from 'react'
 import { Root, Routes, addPrefetchExcludes } from 'react-static'
-//
 import { Router } from 'components/Router'
-
-import './app.css'
+import './app.css';
+import 'swiper/swiper-bundle.min.css';
 import Header from "./components/Header/header";
 import './assets/css/bootstrap.min.css';
 import Footer from "./components/Footer/footer";

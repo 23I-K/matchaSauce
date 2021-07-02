@@ -28,3 +28,15 @@
     bottom: 0;
     left: 15%;
 }
+
+@media (max-width: 768px) {
+    .logo-text {
+        font-size: var(--font-size-15);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .logo-text {
+        font-size: var(--font-size-20);
+    }
+}

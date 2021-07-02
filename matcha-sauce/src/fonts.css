@@ -7,12 +7,16 @@
 }
 
 :root {
+    --font-size-10: 10px;
+    --font-size-12: 12px;
     --font-size-13: 13px;
     --font-size-15: 15px;
+    --font-size-17: 17px;
     --font-size-18: 18px;
     --font-size-20: 20px;
     --font-size-25: 25px;
     --font-size-30: 30px;
+    --font-size-37: 37px;
     --font-size-40: 40px;
     --font-size-70: 70px;
 }

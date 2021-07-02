@@ -20,3 +20,52 @@
     font-size: var(--font-size-20);
     font-weight: var(--light-1);
 }
+
+.canAddItem-text-container {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .deliveryItem-container {
+        width: 100%;
+        flex-direction: row;
+        gap: 15%;
+    }
+
+    .deliveryItem-container:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+
+    .canAddItem-text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .deliveryItem-container > img {
+        min-height: unset;
+        height: auto;
+        width: 70px;
+    }
+
+    .canAddItem-text-container > .main-description, .canAddItem-text-container > .secondary-description {
+        display: block;
+        text-align: left!important;
+    }
+
+    .canAddItem-text-container > .main-description {
+        font-size: var(--font-size-15);
+    }
+
+    .canAddItem-text-container > .secondary-description {
+        font-size: var(--font-size-10);
+    }
+
+    .main-description {
+        display: none;
+    }
+
+    .secondary-description {
+        display: none;
+    }
+}
