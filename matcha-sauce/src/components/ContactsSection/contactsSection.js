@@ -10,7 +10,7 @@ import './contactsSection.css';
 export default function ContactsSection() {
     return (
         <div className={'contactsSection-container'}>
-            <h1 className={'w-100 text-center mb-5'}>Контакты</h1>
+            <h1 className={'w-100 text-center mb-5'}><a name={'contacts-section'} className={'anchor-links'}></a>Контакты</h1>
             <div className={'d-flex contact-form-container'}>
                 <div className={'d-flex flex-column form-inputs-container'}>
                     <div className={'d-flex flex-column justify-content-between form-inputs-container-inner'}>

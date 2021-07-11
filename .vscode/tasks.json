@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "install",
+			"path": "matcha-sauce/",
+			"problemMatcher": [],
+			"label": "npm: install - matcha-sauce",
+			"detail": "install dependencies from package"
+		}
+	]
+}

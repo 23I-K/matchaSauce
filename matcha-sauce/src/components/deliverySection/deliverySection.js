@@ -8,7 +8,7 @@ import './deliverySection.css';
 export default function DeliverySection () {
     return (
         <div className={'delivery-section-content'}>
-            <h1 className={'delivery-header-text mb-5 pb-1'}>Доставка и оплата</h1>
+            <h1 className={'delivery-header-text mb-5 pb-1'}><a name={'delivery-section'} className={'anchor-links'}></a>Доставка и оплата</h1>
             <div className={'deliveryItems-common-container justify-content-evenly'}>
                 <DeliveryItem mainDescription={'Заказ'} secondaryDescription={'Вы оставляете свой номер и наш менеджер связывается с Вами для уточнения заказа.'} imageSrc={deliveryItemImage1}/>
                 <DeliveryItem mainDescription={'Оплата'} secondaryDescription={'Выбираете способ оплаты: Переводом на карту Наличными курьеру.'} imageSrc={deliveryItemImage2}/>

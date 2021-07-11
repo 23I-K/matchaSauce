@@ -11,7 +11,7 @@ export default function Section2() {
 
     return (
         <div className={'section-2-content'}>
-            <h2 className={'section2-main-title'}>Все легче, чем кажется</h2>
+            <h2 className={'section2-main-title'}><a name={'about-section'} className={'anchor-links'}></a>Все легче, чем кажется</h2>
             <h4 className={'section2-secondary-title px-3 my-4 my-sm-5'}>
                 Нет необходимости заваривать или контролировать температуру. Не нужен специальный инвентарь или обучение персонала.
                 Просто растворите соус и откройте невероятные возможности при минимальные затратах для расширения меню!
