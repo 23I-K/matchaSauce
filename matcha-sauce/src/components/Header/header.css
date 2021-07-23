@@ -8,9 +8,16 @@
     position: relative;
 }
 
+.header-links-container {
+    display: flex;
+}
+
 .header-links-container > * {
     color: var(--main-dark-color)!important;
     font-weight: var(--light-1);
+    padding: 1rem;
+    cursor: pointer;
+    margin: 0;
 }
 
 .header-links-container > *:hover {

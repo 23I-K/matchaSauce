@@ -14,7 +14,7 @@
   "productionSourceMaps": false,
   "silent": false,
   "entry": "index.js",
-  "siteRoot": "http://n99987i0.beget.tech",
+  "siteRoot": "http://matchasauce.ru",
   "plugins": [
     [
       "C:\\Users\\user\\Desktop\\VisualStudioProject\\matchaSauce\\matcha-sauce\\node_modules\\react-static-plugin-source-filesystem\\node.api.js",
@@ -42,7 +42,7 @@
     "STATIC_DATA": "C:\\Users\\user\\Desktop\\VisualStudioProject\\matchaSauce\\matcha-sauce\\dist\\staticData"
   },
   "basePath": "",
-  "publicPath": "http://n99987i0.beget.tech/",
+  "publicPath": "http://matchasauce.ru/",
   "assetsPath": "",
   "extractCssChunks": false,
   "inlineCss": false,

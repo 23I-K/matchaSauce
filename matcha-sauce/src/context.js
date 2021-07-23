@@ -1,2 +1,6 @@
 import React from "react";
-export const ModalContext = React.createContext();
+import { IModalContext } from "./interfaces";
+
+const ModalContext = React.createContext(IModalContext);
+
+export default ModalContext;

@@ -160,6 +160,34 @@
     .contacts-btn {
         margin-bottom: 50px;
     }
+
+    .modal-contacts-container {
+        background-color: rgb(239 156 59);
+        padding-top: 20px;
+    }
+
+    .form-inputs-container button.contacts-btn {
+        color: var(--main-dark-color);
+        border: 1px solid black;
+    }
+
+    .modal-contact-form-container div.close-menu-btn {
+        right: -29px;
+        top: -23px;
+    }
+
+    .modal-contact-form-container input {
+        color: var(--main-dark-color);
+    }
+
+    .modal-contact-form-container input::placeholder {
+        color: var(--main-dark-color);
+    }
+
+    .modal-form-image {
+        display: none;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 992px) {

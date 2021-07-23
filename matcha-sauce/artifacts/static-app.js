@@ -99,7 +99,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "http://n99987i0.beget.tech/";
+/******/ 	__webpack_require__.p = "http://matchasauce.ru/";
 /******/
 /******/ 	// uncaught error handler for webpack runtime
 /******/ 	__webpack_require__.oe = function(err) {
@@ -242,12 +242,6 @@ module.exports = require("react-static");
 
 /***/ }),
 /* 7 */
-/***/ (function(module, exports) {
-
-module.exports = require("@babel/runtime/helpers/slicedToArray");
-
-/***/ }),
-/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -724,17 +718,17 @@ function universal(asyncModule) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(61)(module)))
 
 /***/ }),
-/* 9 */
+/* 8 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARYSURBVHgBxZhtbFNVGMf/52yt3WBbMxixpCTLHCYaA2qMQRxmwzRRjBrckklQFjtDYLowxI59ACMEo7JERCJRI8O9mGh0GImE8GnOaMBogPjJzMhaWDbGgJUwWLd29/Ccu4y1u+19aW/H70PvPec8t/eX83LPC0M6iM0O9BWtghNVAHsMDCshmAtTSgnOD+dQ3g0KGoIQw+DsVyhKL2rKfwN7X4FFmKXoYJMH4r4AvfwNSrk15YoAzg6netNl+jmB6MQ+bPguCFsFhxpLEHHtobst9EjqZ/QE4+E4Cjj2oPpIyDjUiFCgEZG8PhLbqitnBQXUAtG/caxuu1Fo6hde2p6HqGM/RbwN0y82WYPxcBxGdcdbqYqTC55rcqPI2UWlL8AK6QhKOHpQPP4Sqn4Y0xYlo8h53LJcJij0Nbiafwy/+wvmFmkFLzQfIrk1mHeED8PRj+fmJgr+37zFUp+zG4UG4o+b/PFZs32wv6kUcJ6mu/uRLun2wUTCKFAexnNdQzIRV4PO95CJnH24cYvvmklMC6q1J79N2WXj0gp0rGjAEmehfqCCBvzsX4q7goqjGVnG763Evgdrsab4IXQ/vsNYMhLbDFVQUD9k7EVkWW53efXdtNdVrErKa0o4tk1fLu54mhS9yBL1yxLl4iVrPU/pPepGd90zHApfiyzK7XqgOmnZQOQ6vh86bfQXPuqDrBImec21AqU5blOxRnIbzh9Ur7oIUSYHyWKYYP9CHzoL16PHXWcoWe+1QW6a1VKwxCjqSMHLCOSvVu+lnJ6kKldui5wkXwou0ovYu6AS/rxHE/JSSTbkP2mnHMEWS0HdfcLxiT6MiUlN/lzJrXlP4FDhOtgnJxG0Qu5vHqQ7j17YKocXJ4s2ws1dmrLgVBi90RA2uVaq6dDtmE1ykAv4EU7fwHGjuDPRATx/41uElYimTNZgHcklW/lmJKcirsiZ5B8zoTOSyZobWZGDXH79x2kve9ZsvJRcO9puKGmLnCQX56iJRY+VZ/6KDcI32plS0jY5FaWXo+zmn5CLRAuciQ3AF+7U9MlQbNRGOQzilU4SZF9FqTN+AYvMHThyNFdR89skR8sY3q1e1MStWKuc+GCRGcmfJv5FVbhdlbSNSXwiL3F7ksCnlNyGTLBnT0IavA0139TL29k9SSz3A/q1qX0ygY2A5eydSc0KLv9whFp5J+41XOyOP1RK3BeXtX5Nv5/hXsHYATqn+TI+S3uykBttoZ75C+YbLk6gpv0dTbYmcNmBcYjJ1+nuJOYLhlNYiNrkRXoEA6204nkXZklvFB+GJ7cFFW03kxUaH0gGA29CcBpVwmMYa00wTHNtI9Z3dOkFGZ+wlsqBw2i9z9rS+ZgnheEjuPCIkdx0qBX6W0rBpug0lL1KyzTtXlq/BuU0cxALcj7HuqMjMEn6Z86hnRVQpp6lv6DVKltOwkuogheRIO21cY3aZoxWSn/QnHoRQjklJ36kwR1bV7vXuGIv4AAAAABJRU5ErkJggg=="
 
 /***/ }),
-/* 10 */
+/* 9 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(12);
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(11);
 /* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _reach_router__WEBPACK_IMPORTED_MODULE_0__["Link"]; });
 
@@ -743,7 +737,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM
 
 
 /***/ }),
-/* 11 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -766,10 +760,16 @@ var requireById = function requireById(id) {
 exports["default"] = requireById;
 
 /***/ }),
-/* 12 */
+/* 11 */
 /***/ (function(module, exports) {
 
 module.exports = require("@reach/router");
+
+/***/ }),
+/* 12 */
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/helpers/slicedToArray");
 
 /***/ }),
 /* 13 */
@@ -820,7 +820,7 @@ module.exports = __webpack_require__.p + "static/contact-form-main-mobile.a53cb7
 "use strict";
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/slicedToArray"
-var slicedToArray_ = __webpack_require__(7);
+var slicedToArray_ = __webpack_require__(12);
 var slicedToArray_default = /*#__PURE__*/__webpack_require__.n(slicedToArray_);
 
 // EXTERNAL MODULE: external "react"
@@ -831,7 +831,7 @@ var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_)
 var external_react_static_ = __webpack_require__(6);
 
 // EXTERNAL MODULE: C:/Users/user/Desktop/VisualStudioProject/matchaSauce/matcha-sauce/src/components/Router.js
-var Router = __webpack_require__(10);
+var Router = __webpack_require__(9);
 
 // EXTERNAL MODULE: C:/Users/user/Desktop/VisualStudioProject/matchaSauce/matcha-sauce/src/app.css
 var app = __webpack_require__(73);
@@ -899,9 +899,16 @@ var menu_burger_default = /*#__PURE__*/__webpack_require__.n(menu_burger);
 var close_menu = __webpack_require__(13);
 var close_menu_default = /*#__PURE__*/__webpack_require__.n(close_menu);
 
+// CONCATENATED MODULE: C:/Users/user/Desktop/VisualStudioProject/matchaSauce/matcha-sauce/src/interfaces.js
+var IModalContext = {
+  modalContext: false,
+  setModalContext: function setModalContext() {}
+};
 // CONCATENATED MODULE: C:/Users/user/Desktop/VisualStudioProject/matchaSauce/matcha-sauce/src/context.js
 
-var ModalContext = /*#__PURE__*/external_react_default.a.createContext();
+
+var ModalContext = /*#__PURE__*/external_react_default.a.createContext(IModalContext);
+/* harmony default export */ var context = (ModalContext);
 // CONCATENATED MODULE: C:/Users/user/Desktop/VisualStudioProject/matchaSauce/matcha-sauce/src/components/Header/header.js
 
 
@@ -922,17 +929,15 @@ function Header() {
       showMenu = _useState2[0],
       setShowMenu = _useState2[1];
 
-  var _useContext = Object(external_react_["useContext"])(ModalContext),
-      _useContext2 = slicedToArray_default()(_useContext, 2),
-      modalContext = _useContext2[0],
-      setModalContext = _useContext2[1];
+  var _useContext = Object(external_react_["useContext"])(context),
+      modalContext = _useContext.modalContext,
+      setModalContext = _useContext.setModalContext;
 
   return /*#__PURE__*/external_react_default.a.createElement("nav", {
     className: 'header-common-container pt-4'
   }, /*#__PURE__*/external_react_default.a.createElement(Logo_logo, null), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: 'header-links-container'
-  }, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: '/',
+  }, /*#__PURE__*/external_react_default.a.createElement("p", {
     onClick: function onClick() {
       setModalContext(!modalContext);
     }
@@ -957,8 +962,10 @@ function Header() {
     className: 'header-mobile-menu'
   }, /*#__PURE__*/external_react_default.a.createElement("div", {
     className: 'header-links-container'
-  }, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: '/'
+  }, /*#__PURE__*/external_react_default.a.createElement("p", {
+    onClick: function onClick() {
+      setModalContext(!modalContext);
+    }
   }, "\u041A\u0443\u043F\u0438\u0442\u044C"), /*#__PURE__*/external_react_default.a.createElement("a", {
     href: "#about-section"
   }, "\u041E \u043F\u0440\u043E\u0434\u0443\u043A\u0442\u0435"), /*#__PURE__*/external_react_default.a.createElement("a", {
@@ -1039,12 +1046,10 @@ var ModalContactsSection = __webpack_require__(82);
 
 
 
-
 function ModalContactsSection_ModalContactsSection() {
-  var _useContext = Object(external_react_["useContext"])(ModalContext),
-      _useContext2 = slicedToArray_default()(_useContext, 2),
-      modalContext = _useContext2[0],
-      setModalContext = _useContext2[1];
+  var _useContext = Object(external_react_["useContext"])(context),
+      modalContext = _useContext.modalContext,
+      setModalContext = _useContext.setModalContext;
 
   return /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, modalContext && /*#__PURE__*/external_react_default.a.createElement("div", {
     className: 'contactsSection-container modal-contacts-container'
@@ -1116,7 +1121,7 @@ function ModalContactsSection_ModalContactsSection() {
   }), /*#__PURE__*/external_react_default.a.createElement("img", {
     alt: 'contactFormImage',
     src: contact_form_main_mobile_default.a,
-    className: 'contact-form-image-mobile'
+    className: 'contact-form-image-mobile modal-form-image'
   })))));
 }
 // CONCATENATED MODULE: C:/Users/user/Desktop/VisualStudioProject/matchaSauce/matcha-sauce/src/App.js
@@ -1140,10 +1145,14 @@ function App() {
       modalContext = _useState2[0],
       setModalContext = _useState2[1];
 
+  var value = {
+    modalContext: modalContext,
+    setModalContext: setModalContext
+  };
   return /*#__PURE__*/external_react_default.a.createElement(external_react_static_["Root"], null, /*#__PURE__*/external_react_default.a.createElement("div", {
     className: 'container-fluid px-0'
-  }, /*#__PURE__*/external_react_default.a.createElement(ModalContext.Provider, {
-    value: [modalContext, setModalContext]
+  }, /*#__PURE__*/external_react_default.a.createElement(context.Provider, {
+    value: value
   }, /*#__PURE__*/external_react_default.a.createElement(ModalContactsSection_ModalContactsSection, null), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: 'container'
   }, /*#__PURE__*/external_react_default.a.createElement(Header_header, null), /*#__PURE__*/external_react_default.a.createElement("div", {
@@ -1201,7 +1210,7 @@ var _react = __webpack_require__(0);
 
 var React = _interopRequireWildcard(_react);
 
-var _requireById = __webpack_require__(11);
+var _requireById = __webpack_require__(10);
 
 var _requireById2 = _interopRequireDefault(_requireById);
 
@@ -1465,7 +1474,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var components_Router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(10);
+/* harmony import */ var components_Router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(9);
 
  //
 
@@ -1510,7 +1519,7 @@ var mainTitleImgOpacity = __webpack_require__(46);
 var mainTitleImgOpacity_default = /*#__PURE__*/__webpack_require__.n(mainTitleImgOpacity);
 
 // EXTERNAL MODULE: C:/Users/user/Desktop/VisualStudioProject/matchaSauce/matcha-sauce/src/assets/img/section1/Section1_check.png
-var Section1_check = __webpack_require__(9);
+var Section1_check = __webpack_require__(8);
 var Section1_check_default = /*#__PURE__*/__webpack_require__.n(Section1_check);
 
 // EXTERNAL MODULE: C:/Users/user/Desktop/VisualStudioProject/matchaSauce/matcha-sauce/src/components/Section1/section1.css
@@ -1888,11 +1897,11 @@ function DeliverySection() {
     imageSrc: deliveryItemImg1_default.a
   }), /*#__PURE__*/external_react_default.a.createElement(DeliveryItem, {
     mainDescription: 'Оплата',
-    secondaryDescription: 'Выбираете способ оплаты: Переводом на карту Наличными курьеру.',
+    secondaryDescription: 'Выбираете способ оплаты: Переводом на карту Наличными курьеру Безналичный расчёт.',
     imageSrc: deliveryItemImg2_default.a
   }), /*#__PURE__*/external_react_default.a.createElement(DeliveryItem, {
     mainDescription: 'Доставка',
-    secondaryDescription: 'Доставка осуществляется СДЭК, ПЭК, Деловые Линии Так же можно забрать заказ из нашего офиса.',
+    secondaryDescription: 'Доставка осуществляется СДЭК, ПЭК, Деловые Линии.',
     imageSrc: deliveryItemImg3_default.a
   })));
 }
@@ -2033,7 +2042,7 @@ var _react = _interopRequireDefault(__webpack_require__(0));
 
 var _reactStatic = __webpack_require__(6);
 
-var _router = __webpack_require__(12);
+var _router = __webpack_require__(11);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -2326,7 +2335,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_universal_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(8);
+/* harmony import */ var react_universal_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7);
 /* harmony import */ var react_universal_component__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_universal_component__WEBPACK_IMPORTED_MODULE_3__);
 
 
@@ -2677,10 +2686,10 @@ var getConfig = function getConfig(isDynamic, universalConfig, options, props) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	".": 11,
-	"./": 11,
-	"./index": 11,
-	"./index.js": 11
+	".": 10,
+	"./": 10,
+	"./index": 10,
+	"./index.js": 10
 };
 
 
@@ -2829,7 +2838,7 @@ var _hoistNonReactStatics = __webpack_require__(33);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
-var _index = __webpack_require__(8);
+var _index = __webpack_require__(7);
 
 var _index2 = _interopRequireDefault(_index);
 
@@ -3097,7 +3106,7 @@ module.exports = require("swiper/swiper-bundle.min.css");
 
 exports = module.exports = __webpack_require__(1)(false);
 // Module
-exports.push([module.i, ".header-common-container {\r\n    width: 100%;\r\n    height: 100px;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n    background-color: var(--main-white-color);\r\n    position: relative;\r\n}\r\n\r\n.header-links-container > * {\r\n    color: var(--main-dark-color)!important;\r\n    font-weight: var(--light-1);\r\n}\r\n\r\n.header-links-container > *:hover {\r\n    font-weight: var(--bold-1);\r\n}\r\n\r\n.menu-burger-button {\r\n    display: none;\r\n}\r\n\r\n@media (max-width: 768px) {\r\n    .header-links-container {\r\n        display: none;\r\n    }\r\n\r\n    .menu-burger-button {\r\n        display: flex;\r\n        cursor: pointer;\r\n    }\r\n\r\n    .header-mobile-menu {\r\n        display: flex;\r\n        width: 100%;\r\n        height: auto;\r\n        background-color: var(--main-white-color);\r\n        position: absolute;\r\n        top: 0;\r\n        justify-content: space-between;\r\n        z-index: 1;\r\n    }\r\n\r\n    .header-mobile-menu > .header-links-container {\r\n        display: flex;\r\n        flex-direction: column;\r\n    }\r\n\r\n    .close-menu-btn {\r\n        width: 25px;\r\n        height: 25px;\r\n        cursor: pointer;\r\n        margin-top: 15px;\r\n    }\r\n\r\n    .close-menu-btn > img {\r\n        width: 100%;\r\n        height: 100%;\r\n    }\r\n}\r\n\r\n@media (min-width: 768px) and (max-width: 992px) {\r\n    .header-links-container > * {\r\n        font-size: var(--font-size-13);\r\n    }\r\n}", ""]);
+exports.push([module.i, ".header-common-container {\r\n    width: 100%;\r\n    height: 100px;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n    background-color: var(--main-white-color);\r\n    position: relative;\r\n}\r\n\r\n.header-links-container {\r\n    display: flex;\r\n}\r\n\r\n.header-links-container > * {\r\n    color: var(--main-dark-color)!important;\r\n    font-weight: var(--light-1);\r\n    padding: 1rem;\r\n    cursor: pointer;\r\n    margin: 0;\r\n}\r\n\r\n.header-links-container > *:hover {\r\n    font-weight: var(--bold-1);\r\n}\r\n\r\n.menu-burger-button {\r\n    display: none;\r\n}\r\n\r\n@media (max-width: 768px) {\r\n    .header-links-container {\r\n        display: none;\r\n    }\r\n\r\n    .menu-burger-button {\r\n        display: flex;\r\n        cursor: pointer;\r\n    }\r\n\r\n    .header-mobile-menu {\r\n        display: flex;\r\n        width: 100%;\r\n        height: auto;\r\n        background-color: var(--main-white-color);\r\n        position: absolute;\r\n        top: 0;\r\n        justify-content: space-between;\r\n        z-index: 1;\r\n    }\r\n\r\n    .header-mobile-menu > .header-links-container {\r\n        display: flex;\r\n        flex-direction: column;\r\n    }\r\n\r\n    .close-menu-btn {\r\n        width: 25px;\r\n        height: 25px;\r\n        cursor: pointer;\r\n        margin-top: 15px;\r\n    }\r\n\r\n    .close-menu-btn > img {\r\n        width: 100%;\r\n        height: 100%;\r\n    }\r\n}\r\n\r\n@media (min-width: 768px) and (max-width: 992px) {\r\n    .header-links-container > * {\r\n        font-size: var(--font-size-13);\r\n    }\r\n}", ""]);
 
 
 
@@ -3147,7 +3156,7 @@ exports.push([module.i, ".footer-logo-link {\r\n\r\n}\r\n\r\n.footer-main-contai
 
 exports = module.exports = __webpack_require__(1)(false);
 // Module
-exports.push([module.i, ".modal-contacts-container {\r\n    position: fixed;\r\n    z-index: 2;\r\n    width: 100%;\r\n    height: 100%;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-content: center;\r\n    background-color: rgb(239 156 59 / 58%);\r\n}\r\n\r\n.modal-contact-form-container {\r\n    position: relative;\r\n}\r\n\r\n.close-menu-btn {\r\n    width: 25px;\r\n    height: 25px;\r\n    cursor: pointer;\r\n    margin-top: 15px;\r\n    position: absolute;\r\n    right: 30px;\r\n    top: 5px;\r\n}\r\n\r\n.close-menu-btn > img {\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\n\r\n.contactsSection-container {\r\n    padding-top: 80px;\r\n    padding-bottom: 80px;\r\n}\r\n\r\n.form-inputs-container {\r\n    background-color: var(--grey-form-background);\r\n    padding: 50px 50px;\r\n    border-radius: 25px 0 0 25px;\r\n    width: 50%;\r\n}\r\n\r\n.form-inputs-container-inner {\r\n    margin-bottom: 60px;\r\n    gap: 37px;\r\n}\r\n\r\n.contact-form-input {\r\n    padding-top: 10px;\r\n    padding-bottom: 10px;\r\n    border: none;\r\n    border-bottom: 1px solid black;\r\n    background-color: var(--grey-form-background);\r\n}\r\n\r\n.form-contacts-container {\r\n    background-color: var(--green-form-background);\r\n    height: 60%;\r\n    border-top-right-radius: 25px;\r\n}\r\n\r\n.modal-form-contacts-container {\r\n    background-color: var(--btn-orange-background);\r\n}\r\n\r\n.contact-form-image {\r\n    height: 40%;\r\n    width: 100%;\r\n    -o-object-fit: cover;\r\n       object-fit: cover;\r\n    border-bottom-right-radius: 25px;\r\n}\r\n\r\n.contact-form-container {\r\n    box-shadow: 20px 20px 35px rgba(0, 0, 0, 0.05);\r\n    border-radius: 25px;\r\n}\r\n\r\n.form-contacts-container-common {\r\n    border-radius: 25px;\r\n    width: 50%;\r\n}\r\n\r\n.contact-link-2 {\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n\r\n.contact-link-2 > img {\r\n    width: 30px;\r\n    height: 30px;\r\n}\r\n\r\n.form-contacts-phone-container {\r\n    width: 75%;\r\n}\r\n\r\n.contact-form-image {\r\n    display: block;\r\n}\r\n\r\n.contact-form-image-mobile {\r\n    display: none;\r\n}\r\n\r\n.contacts-btn {\r\n    margin: auto;\r\n}\r\n\r\n@media (max-width: 768px) {\r\n    .contact-form-container {\r\n        flex-direction: column;\r\n        box-shadow: unset;\r\n    }\r\n\r\n    .form-inputs-container {\r\n        width: 100%;\r\n        padding: 10px 10px;\r\n        background-color: unset;\r\n    }\r\n\r\n    .contact-form-input {\r\n        background-color: unset;\r\n    }\r\n\r\n    .form-contacts-container-common {\r\n        width: 100%;\r\n    }\r\n\r\n    .form-contacts-text {\r\n        font-size: var(--font-size-13);\r\n        text-align: center;\r\n        width: 100%;\r\n    }\r\n\r\n    .form-contacts-container {\r\n        border-radius: 25px 25px 0 0;\r\n    }\r\n\r\n    .contact-link-2 {\r\n        font-size: var(--font-size-12);\r\n    }\r\n\r\n    .form-contacts-phone-container {\r\n        width: 100%;\r\n    }\r\n\r\n    .contact-form-image {\r\n        border-radius: 0 0 25px 25px;\r\n    }\r\n\r\n    .contact-form-image {\r\n        display: none;\r\n    }\r\n\r\n    .contact-form-image-mobile {\r\n        display: block;\r\n        width: 100%;\r\n    }\r\n\r\n    .contacts-btn {\r\n        margin-bottom: 50px;\r\n    }\r\n}\r\n\r\n@media (min-width: 768px) and (max-width: 992px) {\r\n    .contact-link-2 {\r\n        font-size: var(--font-size-13);\r\n    }\r\n\r\n    .form-contacts-phone-container {\r\n        width: 100%;\r\n    }\r\n}", ""]);
+exports.push([module.i, ".modal-contacts-container {\r\n    position: fixed;\r\n    z-index: 2;\r\n    width: 100%;\r\n    height: 100%;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-content: center;\r\n    background-color: rgb(239 156 59 / 58%);\r\n}\r\n\r\n.modal-contact-form-container {\r\n    position: relative;\r\n}\r\n\r\n.close-menu-btn {\r\n    width: 25px;\r\n    height: 25px;\r\n    cursor: pointer;\r\n    margin-top: 15px;\r\n    position: absolute;\r\n    right: 30px;\r\n    top: 5px;\r\n}\r\n\r\n.close-menu-btn > img {\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\n\r\n.contactsSection-container {\r\n    padding-top: 80px;\r\n    padding-bottom: 80px;\r\n}\r\n\r\n.form-inputs-container {\r\n    background-color: var(--grey-form-background);\r\n    padding: 50px 50px;\r\n    border-radius: 25px 0 0 25px;\r\n    width: 50%;\r\n}\r\n\r\n.form-inputs-container-inner {\r\n    margin-bottom: 60px;\r\n    gap: 37px;\r\n}\r\n\r\n.contact-form-input {\r\n    padding-top: 10px;\r\n    padding-bottom: 10px;\r\n    border: none;\r\n    border-bottom: 1px solid black;\r\n    background-color: var(--grey-form-background);\r\n}\r\n\r\n.form-contacts-container {\r\n    background-color: var(--green-form-background);\r\n    height: 60%;\r\n    border-top-right-radius: 25px;\r\n}\r\n\r\n.modal-form-contacts-container {\r\n    background-color: var(--btn-orange-background);\r\n}\r\n\r\n.contact-form-image {\r\n    height: 40%;\r\n    width: 100%;\r\n    -o-object-fit: cover;\r\n       object-fit: cover;\r\n    border-bottom-right-radius: 25px;\r\n}\r\n\r\n.contact-form-container {\r\n    box-shadow: 20px 20px 35px rgba(0, 0, 0, 0.05);\r\n    border-radius: 25px;\r\n}\r\n\r\n.form-contacts-container-common {\r\n    border-radius: 25px;\r\n    width: 50%;\r\n}\r\n\r\n.contact-link-2 {\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n\r\n.contact-link-2 > img {\r\n    width: 30px;\r\n    height: 30px;\r\n}\r\n\r\n.form-contacts-phone-container {\r\n    width: 75%;\r\n}\r\n\r\n.contact-form-image {\r\n    display: block;\r\n}\r\n\r\n.contact-form-image-mobile {\r\n    display: none;\r\n}\r\n\r\n.contacts-btn {\r\n    margin: auto;\r\n}\r\n\r\n@media (max-width: 768px) {\r\n    .contact-form-container {\r\n        flex-direction: column;\r\n        box-shadow: unset;\r\n    }\r\n\r\n    .form-inputs-container {\r\n        width: 100%;\r\n        padding: 10px 10px;\r\n        background-color: unset;\r\n    }\r\n\r\n    .contact-form-input {\r\n        background-color: unset;\r\n    }\r\n\r\n    .form-contacts-container-common {\r\n        width: 100%;\r\n    }\r\n\r\n    .form-contacts-text {\r\n        font-size: var(--font-size-13);\r\n        text-align: center;\r\n        width: 100%;\r\n    }\r\n\r\n    .form-contacts-container {\r\n        border-radius: 25px 25px 0 0;\r\n    }\r\n\r\n    .contact-link-2 {\r\n        font-size: var(--font-size-12);\r\n    }\r\n\r\n    .form-contacts-phone-container {\r\n        width: 100%;\r\n    }\r\n\r\n    .contact-form-image {\r\n        border-radius: 0 0 25px 25px;\r\n    }\r\n\r\n    .contact-form-image {\r\n        display: none;\r\n    }\r\n\r\n    .contact-form-image-mobile {\r\n        display: block;\r\n        width: 100%;\r\n    }\r\n\r\n    .contacts-btn {\r\n        margin-bottom: 50px;\r\n    }\r\n\r\n    .modal-contacts-container {\r\n        background-color: rgb(239 156 59);\r\n        padding-top: 20px;\r\n    }\r\n\r\n    .form-inputs-container button.contacts-btn {\r\n        color: var(--main-dark-color);\r\n        border: 1px solid black;\r\n    }\r\n\r\n    .modal-contact-form-container div.close-menu-btn {\r\n        right: -29px;\r\n        top: -23px;\r\n    }\r\n\r\n    .modal-contact-form-container input {\r\n        color: var(--main-dark-color);\r\n    }\r\n\r\n    .modal-contact-form-container input::-moz-placeholder {\r\n        color: var(--main-dark-color);\r\n    }\r\n\r\n    .modal-contact-form-container input:-ms-input-placeholder {\r\n        color: var(--main-dark-color);\r\n    }\r\n\r\n    .modal-contact-form-container input::placeholder {\r\n        color: var(--main-dark-color);\r\n    }\r\n\r\n    .modal-form-image {\r\n        display: none;\r\n    }\r\n\r\n}\r\n\r\n@media (min-width: 768px) and (max-width: 992px) {\r\n    .contact-link-2 {\r\n        font-size: var(--font-size-13);\r\n    }\r\n\r\n    .form-contacts-phone-container {\r\n        width: 100%;\r\n    }\r\n}", ""]);
 
 
 
@@ -3167,7 +3176,7 @@ exports.push([module.i, "", ""]);
 
 exports = module.exports = __webpack_require__(1)(false);
 // Module
-exports.push([module.i, ".common-offer-image-container {\r\n    display: flex;\r\n    position: relative;\r\n}\r\n\r\n.common-feature-container {\r\n    display: flex;\r\n    width: 100%;\r\n    gap: 100px;\r\n}\r\n\r\n.common-feature-container > div.features-container {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    max-width: 240px;\r\n    text-align: center;\r\n    justify-content: space-between;\r\n}\r\n\r\n.offer-subtitle {\r\n    color: rgba(112, 153, 57, 0.2);\r\n    font-weight: var(--light-1);\r\n    font-size: var(--font-size-30);\r\n    line-height: 10px;\r\n}\r\n\r\n.offer-title {\r\n    color: rgba(27, 46, 2, 1);\r\n    font-weight: var(--bold-2);\r\n    font-size: var(--font-size-70);\r\n}\r\n\r\n.offer-description {\r\n    color: var(--main-dark-color);\r\n    font-weight: var(--light-1);\r\n    font-size: var(--font-size-20);\r\n    line-height: 28px;\r\n}\r\n\r\n.common-main-offer-container {\r\n    gap: 90px;\r\n}\r\n\r\n.features-image {\r\n    width: 40px;\r\n    height: 40px;\r\n}\r\n\r\n.features-title {\r\n    font-weight: var(--light-1);\r\n    font-size: var(--font-size-13);\r\n    color: var(--main-dark-color);\r\n}\r\n\r\n.offer-image-container {\r\n    width: 100%;\r\n}\r\n\r\n.offer-text-container {\r\n    gap: 3rem;\r\n}\r\n\r\n.offer-image {\r\n    display: block;\r\n}\r\n\r\n.offer-image-opacity {\r\n    display: none;\r\n}\r\n\r\n.slider-common-container {\r\n    display: none;\r\n}\r\n\r\n@media (max-width: 768px) {\r\n    .slider-common-container {\r\n        display: block;\r\n    }\r\n\r\n    .offer-image-container {\r\n        position: absolute;\r\n        z-index: -1;\r\n        display: flex;\r\n        justify-content: center;\r\n    }\r\n\r\n    .offer-image-opacity {\r\n        display: block;\r\n    }\r\n\r\n    .offer-image {\r\n        display: none;\r\n    }\r\n\r\n    .offer-subtitle {\r\n        text-align: center;\r\n        font-size: var(--font-size-25);\r\n    }\r\n\r\n    .offer-title {\r\n        text-align: center;\r\n        font-size: var(--font-size-37);\r\n    }\r\n\r\n    .common-feature-container > div.features-container {\r\n        display: none;\r\n    }\r\n\r\n    .swiper-features-container {\r\n        display: flex;\r\n        flex-direction: column;\r\n        align-items: center;\r\n    }\r\n\r\n    .swiper-features-container > .features-title {\r\n        text-align: center;\r\n    }\r\n\r\n    .swiper-button-prev:after, .swiper-button-next:after {\r\n        font-size: calc(var(--swiper-navigation-size) / 2)!important;\r\n        color: var(--btn-orange-background);\r\n    }\r\n\r\n    .offer-description {\r\n        font-size: var(--font-size-13);\r\n        text-align: center;\r\n        color: var(--secondary-dark-color);\r\n        line-height: unset;\r\n    }\r\n\r\n    .offer-text-container {\r\n        gap: 0.8rem;\r\n    }\r\n\r\n    .common-main-offer-container {\r\n        gap: 40px;\r\n    }\r\n}", ""]);
+exports.push([module.i, ".common-offer-image-container {\r\n    display: flex;\r\n    position: relative;\r\n}\r\n\r\n.common-feature-container {\r\n    display: flex;\r\n    width: 100%;\r\n    gap: 100px;\r\n}\r\n\r\n.common-feature-container > div.features-container {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    max-width: 240px;\r\n    text-align: center;\r\n    justify-content: space-between;\r\n}\r\n\r\n.offer-subtitle {\r\n    color: rgba(112, 153, 57, 0.2);\r\n    font-weight: var(--light-1);\r\n    font-size: var(--font-size-30);\r\n    line-height: 10px;\r\n}\r\n\r\n.offer-title {\r\n    color: rgba(27, 46, 2, 1);\r\n    font-weight: var(--bold-2);\r\n    font-size: var(--font-size-70);\r\n}\r\n\r\n.offer-description {\r\n    color: var(--main-dark-color);\r\n    font-weight: var(--light-1);\r\n    font-size: var(--font-size-20);\r\n    line-height: 28px;\r\n}\r\n\r\n.common-main-offer-container {\r\n    gap: 90px;\r\n}\r\n\r\n.features-image {\r\n    width: 40px;\r\n    height: 40px;\r\n}\r\n\r\n.features-title {\r\n    font-weight: var(--light-1);\r\n    font-size: var(--font-size-13);\r\n    color: var(--main-dark-color);\r\n}\r\n\r\n.offer-image-container {\r\n    width: 100%;\r\n}\r\n\r\n.offer-text-container {\r\n    gap: 2rem;\r\n}\r\n\r\n.offer-image {\r\n    display: block;\r\n}\r\n\r\n.offer-image-opacity {\r\n    display: none;\r\n}\r\n\r\n.slider-common-container {\r\n    display: none;\r\n}\r\n\r\n@media (max-width: 768px) {\r\n    .slider-common-container {\r\n        display: block;\r\n    }\r\n\r\n    .offer-image-container {\r\n        position: absolute;\r\n        z-index: -1;\r\n        display: flex;\r\n        justify-content: center;\r\n    }\r\n\r\n    .offer-image-opacity {\r\n        display: block;\r\n    }\r\n\r\n    .offer-image {\r\n        display: none;\r\n    }\r\n\r\n    .offer-subtitle {\r\n        text-align: center;\r\n        font-size: var(--font-size-25);\r\n    }\r\n\r\n    .offer-title {\r\n        text-align: center;\r\n        font-size: var(--font-size-37);\r\n    }\r\n\r\n    .common-feature-container > div.features-container {\r\n        display: none;\r\n    }\r\n\r\n    .swiper-features-container {\r\n        display: flex;\r\n        flex-direction: column;\r\n        align-items: center;\r\n    }\r\n\r\n    .swiper-features-container > .features-title {\r\n        text-align: center;\r\n    }\r\n\r\n    .swiper-button-prev:after, .swiper-button-next:after {\r\n        font-size: calc(var(--swiper-navigation-size) / 2)!important;\r\n        color: var(--btn-orange-background);\r\n    }\r\n\r\n    .offer-description {\r\n        font-size: var(--font-size-13);\r\n        text-align: center;\r\n        color: var(--secondary-dark-color);\r\n        line-height: unset;\r\n    }\r\n\r\n    .offer-text-container {\r\n        gap: 0.8rem;\r\n    }\r\n\r\n    .common-main-offer-container {\r\n        gap: 40px;\r\n    }\r\n}", ""]);
 
 
 

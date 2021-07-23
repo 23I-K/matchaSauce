@@ -6,18 +6,18 @@ import siteConfig from '../../siteConfig.json';
 import phoneCall from '../../assets/img/phone-call.png';
 import menuBurger from '../../assets/img/header/menu-burger.svg';
 import closeMenuBurger from '../../assets/img/header/close-menu.svg';
-import {ModalContext} from "../../context";
+import ModalContext from "../../context";
 
 function Header () {
     let {configContacts} = siteConfig;
     const [showMenu, setShowMenu] = useState(false);
-    const [modalContext, setModalContext] = useContext(ModalContext);
+    const {modalContext, setModalContext} = useContext(ModalContext);
 
     return (
         <nav className={'header-common-container pt-4'}>
             <Logo/>
             <div className={'header-links-container'}>
-                <a href={'/'} onClick={() => {setModalContext(!modalContext)}}>Купить</a>
+                <p onClick={() => {setModalContext(!modalContext)}}>Купить</p>
                 <a href="#about-section">О продукте</a>
                 <a href="#delivery-section">Доставка</a>
                 <a href="#contacts-section">Контакты</a>
@@ -29,7 +29,7 @@ function Header () {
             {showMenu &&
                 <div className={'header-mobile-menu'}>
                     <div className={'header-links-container'}>
-                        <a href={'/'}>Купить</a>
+                        <p onClick={() => {setModalContext(!modalContext)}}>Купить</p>
                         <a href="#about-section">О продукте</a>
                         <a href="#delivery-section">Доставка</a>
                         <a href="#contacts-section">Контакты</a>

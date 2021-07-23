@@ -7,10 +7,10 @@ import contactFormMainImg from '../../assets/img/contactsSection/contact-form-ma
 import contactFormMainImgMobile from '../../assets/img/contactsSection/contact-form-main-mobile.png';
 import './ModalContactsSection.css';
 import closeMenuBurger from '../../assets/img/header/close-menu.svg';
-import {ModalContext} from "../../context";
+import ModalContext from "../../context";
 
 export default function ModalContactsSection() {
-    const [modalContext, setModalContext] = useContext(ModalContext);
+    const {modalContext, setModalContext} = useContext(ModalContext);
     return (
         <>
             {modalContext &&
@@ -42,7 +42,7 @@ export default function ModalContactsSection() {
                                 </div>
                             </div>
                             <img alt={'contactFormImage'} src={contactFormMainImg} className={'contact-form-image'}/>
-                            <img alt={'contactFormImage'} src={contactFormMainImgMobile} className={'contact-form-image-mobile'}/>
+                            <img alt={'contactFormImage'} src={contactFormMainImgMobile} className={'contact-form-image-mobile modal-form-image'}/>
                         </div>
                     </div>
                 </div>
