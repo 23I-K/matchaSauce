@@ -9,7 +9,7 @@ export default function Footer() {
             <div className={'container footer-container d-flex align-items-center'}>
                 <Logo/>
                 <p className={'footer-text'}>Политика конфиденциальности</p>
-                <p className={'footer-text'}>Все права защищены</p>
+                <p className={'footer-text'}>Все права защищены ©</p>
                 <div className={'footer-company-info-container'}>
                     <p>ООО “ФУД ВЕЙ”</p>
                     <p>ОГРН 1217700196427</p>

@@ -1,8 +1,7 @@
 import path from 'path'
-import axios from 'axios'
 
 export default {
-  siteRoot: 'http://matchasauce.ru/',
+  siteRoot: 'https://matchasauce.ru/',
   plugins: [
     [
       require.resolve('react-static-plugin-source-filesystem'),

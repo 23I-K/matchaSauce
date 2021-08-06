@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import mainTitleImg from '../../assets/img/section1/mainTitleImg.png';
 import mainTitleImgOpacity from '../../assets/img/section1/mainTitleImgOpacity.png';
 import section1Check from '../../assets/img/section1/Section1_check.png';
 import './section1.css';
 import SwiperCore, {Autoplay, Navigation} from "swiper";
+import ModalContext from './../../context';
 
 export default function Section1() {
     SwiperCore.use([Autoplay, Navigation]);
+    const {modalContext, setModalContext} = useContext(ModalContext);
     return (
         <div className={'d-flex flex-column common-main-offer-container'}>
             <div className={'common-offer-image-container'}>
@@ -21,7 +23,7 @@ export default function Section1() {
                                 Великолепный десертный соус на основе зеленого чая матча, позволяющий передать напитку или десерту всю полноту вкуса  характер и пользу японского чая.
                             </p>
                         </div>
-                        <button className={'main-btn-orange'}>Сделать заказ</button>
+                        <button className={'main-btn-orange'} onClick={() => {setModalContext(!modalContext)}}>Сделать заказ</button>
                     </div>
                     <div className={'offer-image-container'}>
                         <img className={'offer-image'} alt={'offer-image'} src={mainTitleImg}/>

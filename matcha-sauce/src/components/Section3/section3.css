@@ -19,7 +19,9 @@
     font-size: var(--font-size-20);
     font-weight: var(--light-2);
     text-align: center;
+    margin: auto;
     margin-top: 45px;
+    width: 70%;
 }
 
 .slider-common-container-section3 {
@@ -27,6 +29,11 @@
 }
 
 @media (max-width: 768px) {
+
+    .section3-footer-text {
+        width: 100%;
+    }
+
     .section3-main-title {
         font-size: var(--font-size-20);
         text-align: center;

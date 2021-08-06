@@ -72,10 +72,23 @@
     margin: auto;
 }
 
+.contacts-second-description {
+    font-weight: var(--light-1);
+    font-size: var(--font-size-14);
+}
+
+.no-border {
+    border: none!important;
+}
+
 @media (max-width: 768px) {
     .contact-form-container {
         flex-direction: column;
         box-shadow: unset;
+    }
+
+    .contact-link-2 {
+        min-width: unset!important;
     }
 
     .form-inputs-container {

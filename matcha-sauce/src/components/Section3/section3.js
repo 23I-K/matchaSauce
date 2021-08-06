@@ -43,7 +43,9 @@ export default function Section3() {
                 <CanAddItem description={'Каши'} imageSrc={coffee5} />
                 <CanAddItem description={'Мороженое'} imageSrc={coffee6} />
             </div>
-            <p className={'section3-footer-text'}>Десерты и напитки с соусом матча выигрышно смотрятся в любом ракурсе</p>
+            <p className={'section3-footer-text'}>
+                Десерты и напитки с соусом матча выигрышно смотрятся в любом ракурсе, а добавив к фотогеничности вкус и пользу мы получаем абсолютный тренд 2021 года.
+            </p>
         </div>
     )
 }

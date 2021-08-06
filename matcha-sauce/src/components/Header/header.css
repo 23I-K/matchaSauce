@@ -18,6 +18,8 @@
     padding: 1rem;
     cursor: pointer;
     margin: 0;
+    min-width: 130px;
+    text-align: center;
 }
 
 .header-links-container > *:hover {
@@ -31,6 +33,11 @@
 @media (max-width: 768px) {
     .header-links-container {
         display: none;
+    }
+
+    .header-links-container > * {
+        min-width: unset!important;
+        text-align: left;
     }
 
     .menu-burger-button {

@@ -34,6 +34,7 @@
 
     .deliveryItem-container:nth-child(odd) {
         flex-direction: row-reverse;
+        justify-content: space-between;
     }
 
     .canAddItem-text-container {
@@ -58,7 +59,7 @@
     }
 
     .canAddItem-text-container > .secondary-description {
-        font-size: var(--font-size-10);
+        font-size: var(--font-size-14);
     }
 
     .main-description {

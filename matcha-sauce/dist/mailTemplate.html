@@ -1,0 +1,30 @@
+<html>
+
+    <style type="text/css">
+        .mail-name {
+            font-weight: bold;
+        }
+
+        .mail-container {
+            padding: 10px;
+            background: rgb(255,255,255);
+            background: linear-gradient(90deg, rgba(255,255,255,0) 0%, #EF9C3B);
+            width: 450px;
+            border-radius: 90px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+
+        ul {
+            padding-left: 16px;
+        }
+    </style>
+    <div class="mail-container">
+        <h4>Новый заказ с сайта MatchaSauce</h4>
+        <ul>
+            <li><span class="mail-name">Имя: </span> {{ name }}</li>
+            <li><span class="mail-name">Телефон: </span> {{ phone }}</li>
+            <li><span class="mail-name">E-mail:</span> {{ email }}</li>
+        </ul>
+    </div>
+</html>

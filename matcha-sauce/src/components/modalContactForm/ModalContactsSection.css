@@ -60,7 +60,7 @@
 }
 
 .modal-form-contacts-container {
-    background-color: var(--btn-orange-background);
+    background-color: var(--btn-orange-background)!important;
 }
 
 .contact-form-image {

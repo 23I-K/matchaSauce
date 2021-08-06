@@ -1,4 +1,10 @@
 .contact-link {
     color: var(--main-dark-color);
     font-weight: var(--light-1);
+    min-width: 200px;
+}
+
+.contact-link:hover {
+    color: var(--main-dark-color);
+    font-weight: var(--medium-1);
 }

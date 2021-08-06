@@ -64,6 +64,7 @@
 
 .product-image-container > img {
     height: 100%;
+    box-shadow: 20px 20px 20px rgb(26 17 1 / 12%);
 }
 
 .section2-image-text-container {
